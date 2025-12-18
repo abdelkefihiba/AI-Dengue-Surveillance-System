@@ -46,3 +46,19 @@ This project integrates **computer vision** and **time-series machine learning**
 
 ## Project Folder Overview
 
+AI-Dengue-Surveillance-System/
+│── ModelA/
+│ ├── data/ # Raw mosquito images
+│ ├── preprocessing/ # Image preprocessing scripts & outputs
+│ ├── models/ # Trained models, checkpoints
+│ └── notebooks/ # Optional Jupyter notebooks
+│
+│── ModelB/
+│ ├── data/
+│ ├── raw/ # Raw dengue, weather, population datasets
+│ └── processed/ # Cleaned and merged datasets
+│ ├── preprocessing/ # Data cleaning and feature engineering scripts
+│ ├── models/ # Trained forecasting models
+│ └── notebooks/ # Jupyter notebooks for experiments
+│
+└── README.md
